@@ -36,7 +36,7 @@ int longestConsecutive(int* nums, int numsSize) {
         {
             continue;
         }
-        else if ((long long)nums[i] == (long long)nums[i - 1] + 1)
+        if (nums[i] == nums[i - 1] + 1)
         {
             count++;
         }
